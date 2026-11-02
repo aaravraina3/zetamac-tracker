@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #111214;
+  color: #d4d4d8;
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+/* hide number input spinners just in case */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
